@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #212020;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    max-inline-size: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-block-end: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    max-inline-size: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-block-end: 20px;
+}
+
+label {
+    display: block;
+    margin-block-end: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    inline-size: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #fff;">Contact Us</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"style="color: #333;">Home</a></li>
+            <li><a href="democart.html"style="color: #333;">cart</a></li>
+            <li><a href="demoabout.html"style="color: #333;">About</a></li>
+            
+        </ul>
+    </nav>
+    <div class="content">
+        <section>
+            <h2 >Get in Touch</h2>
+            <p>Have a question or need assistance? Fill out the form below, and we'll get back to you as soon as possible.</p>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Jewelry Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

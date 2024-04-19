@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracelets Collection</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.bracelets {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bracelet-item {
+    margin-block-end: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bracelet-item img {
+    max-inline-size: 200px;
+}
+
+.description {
+    padding: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.shop-button {
+    display: block;
+    inline-size: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-button:hover {
+    background-color: #555;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bracelets Collection</h1>
+    </header>
+    
+    <main>
+        <section class="bracelets">
+            <div class="bracelet-item">
+                <img src="Images\bracelet 1.jpeg" alt="Bracelet 1">
+                <div class="description">
+                    <h2>Silver Bracelet </h2>
+                    <p>Stylish silver bracelet with intricate design.</p>
+                    <p class="price">$50</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="bracelet-item">
+                <img src="Images\bracelet 2.jpeg" alt="Bracelet 2">
+                <div class="description">
+                    <h2>Rose Gold Bracelet</h2>
+                    <p>Elegant gold bracelet with embedded diamonds.</p>
+                    <p class="price">$80</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="bracelet-item">
+                <img src="Images\bracelet 3.jpeg" alt="Bracelet 3">
+                <div class="description">
+                    <h2>Gold Bracelet </h2>
+                    <p>gold with diamond coating bracelet with silver clasp.</p>
+                    <p class="price">$35</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

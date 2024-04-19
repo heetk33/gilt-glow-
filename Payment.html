@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #333;
+        }
+
+        .container {
+            inline-size: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(155, 81, 81, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .contact-info {
+            margin-block-start: 20px;
+        }
+
+        .contact-info p {
+            margin-block-end: 10px;
+        }
+
+        .contact-info p strong {
+            font-weight: bold;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav ul li {
+            float: inline-start;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        .container {
+            inline-size: 40%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            margin-block-start: 20px;
+        }
+
+        label {
+            display: block;
+            margin-block-end: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            inline-size: 100%;
+            padding: 8px;
+            margin-block-end: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="index.html.html">Home</a></li>
+        <li><a href="demoabout.html">About Us</a></li>
+        <li><a href="democart.html">Cart</a></li>
+        <li><a href="democontact.html">Contact Us</.a></li>
+    </ul>
+    <div class="container">
+        <h1>Contact Information</h1>
+        <div  class="contact-info">
+            <p><strong>Email:</strong></p><input type="text "placehplder="example@example.com">
+            <p><strong>Phone:</strong></p><input type="number"placehplder=" +1234567890">
+            <p><strong>Address:</strong> </p><input type="text"placehplder="Main Street, City, Country">
+        </div>
+        </div>
+    </div>
+    </nav>
+</nav>
+<div class="container">
+    <h1>Payment Method</h1>
+    <form>
+        <label for="card_type">Card Type:</label>
+        <select id="card_type" name="card_type">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="amex">American Express</option>
+        </select>
+
+        <label for="card_number">Card Number:</label>
+        <input type="text" id="card_number" name="card_number" placeholder="Enter card number">
+
+        <label for="expiry_date">Expiry Date:</label>
+        <input type="text" id="expiry_date" name="expiry_date" placeholder="MM/YY">
+
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" placeholder="Enter CVV">
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+</body>
+</html>

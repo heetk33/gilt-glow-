@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rings Collection</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.rings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ring-item {
+    margin-block-end: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.ring-item img {
+    max-inline-size: 200px;
+    
+}
+
+.description {
+    padding: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.shop-button {
+    display: block;
+    inline-size: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-button:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rings Collection</h1>
+    </header>
+    
+    <main>
+        <section class="rings">
+            <div class="ring-item">
+                <img src="Images\rings 1.jpg" alt="Ring 1">
+                <div class="description">
+                    <h2>MARBEL GOLD</h2>
+                    <p>Elegant diamond ring in white gold setting.</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="ring-item">
+                <img src="Images\rings 2.jpg" alt="Ring 2">
+                <div class="description">
+                    <h2>YELLOW Chimes</h2>
+                    <p>Classic solitaire diamond engagement ring.</p>
+                    <p class="price">$1000</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="ring-item">
+                <img src="Images\ring 3.jpg" alt="Ring 3">
+                <div class="description">
+                    <h2>EL Regalo</h2>
+                    <p>Unique rose gold ring with sapphire gemstone.</p>
+                    <p class="price">$750</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

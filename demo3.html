@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earrings Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+.earrings {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  
+}
+
+.earring-item {
+    margin-block-end: 20px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.earring-item img {
+    max-inline-size: 200px;
+    margin: 20px;
+}
+
+.description {
+    padding: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.shop-button {
+    display: block;
+    inline-size: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-button:hover {
+    background-color: #555;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1>Earrings Collection</h1>
+    </header>
+    <main>
+        <section class="earrings">
+            <div class="earring-item">
+                <img src="Images\earings 1.jpg" alt="Earring 1">
+                <div class="description">
+                    <h2>Gold with diamond coating</h2>
+                    <p>Beautiful diamond stud earrings.</p>
+                    <p class="price">$100</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="earring-item">
+                <img src="Images\earings 2.jpeg" alt="Earring 2">
+                <div class="description">
+                    <h2>Pure gold NO  DIAMONDS Earring</h2>
+                    <p>Gold hoop earrings with intricate design.</p>
+                    <p class="price">$80</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="earring-item">
+                <img src="Images\earings 3.jpeg" alt="Earring 3">
+                <div class="description">
+                    <h2>Silver Earings with stones</h2>
+                    <p>Silver drop earrings with turquoise stones.</p>
+                    <p class="price">$120</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewelry Shop - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #2d2b2b;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-inline-end: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ebe9e9;
+}
+
+nav ul li.current a {
+    color: #000;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#cart-items {
+    margin-block-end: 20px;
+}
+
+.cart-item {
+    border-block-end: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item img {
+    max-inline-size: 100px;
+    margin-inline-end: 10px;
+}
+
+#cart-summary {
+    margin-block-end: 20px;
+}
+
+#checkout-options {
+    text-align: end;
+}
+
+#clear-cart-btn,
+#checkout-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#clear-cart-btn:hover,
+#checkout-btn:hover {
+    background-color: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    inset-block-end: 0;
+    inline-size: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #fff;">GILT GLOW</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="demoabout.html">About Us</a></li>
+                <li><a href="democontact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Your Shopping Cart</h2>
+        <div id="cart-items">
+   
+        </div>
+        <div id="cart-summary">
+            <div id="total-items">
+                Total Items: <span id="item-count">0</span>
+            </div>
+            <div id="total-price">
+                Total Price: <span id="total-amount">$0.00</span>
+            </div>
+        </div>
+        <div id="checkout-options">
+            <button id="clear-cart-btn">Clear Cart</button>
+            <button id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jewelry Shop</p>
+    </footer>
+
+  
+</body>
+</html>

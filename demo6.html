@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangles Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.bangles {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bangle-item {
+    margin-block-end: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bangle-item img {
+    max-inline-size: 200px;
+}
+
+.description {
+    padding: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+.shop-button {
+    display: block;
+    inline-size: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.shop-button:hover {
+    background-color: #555;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bangles Collection</h1>
+    </header>
+    
+    <main>
+        <section class="bangles">
+            <div class="bangle-item">
+                <img src="Images\bangles 1.jpg" alt="Bangle 1">
+                <div class="description">
+                    <h2>Shining GOLD</h2>
+                    <p>Exquisite gold bangle with intricate filigree work.</p>
+                    <p class="price">$400</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="bangle-item">
+                <img src="Images\bangles 2.jpg" alt="Bangle 2" style="block-size: 250px;inline-size: 300px;">
+                <div class="description">
+                    <h2>Marble gold and silver</h2>
+                    <p>Stunning silver bangle with embedded gemstones.</p>
+                    <p class="price">$250</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+            <div class="bangle-item">
+                <img src="Images/bangles 3.webp" alt="Bangle 3">
+                <div class="description">
+                    <h2>GOLD Rose</h2>
+                    <p>Chic rose gold bangle with a modern design.</p>
+                    <p class="price">$300</p>
+                    <a href="Payment.html" class="shop-button">Shop Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
